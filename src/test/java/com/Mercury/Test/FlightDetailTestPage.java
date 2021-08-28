@@ -51,6 +51,7 @@ public class FlightDetailTestPage extends BaseTest {
 	public void verifyPassangerCount() {
 		String no = flightDetail.passangerCount();
 		Assert.assertEquals(no,"2");
+		System.out.println("passanger's count verified");
 		
 	}
 	@Test(priority =5)
