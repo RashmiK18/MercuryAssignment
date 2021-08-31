@@ -5,6 +5,7 @@
     <classes>
       <class name="com.Mercury.Test.FlightDetailTestPage">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="classPreference"/>
         </methods>

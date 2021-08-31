@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 28 01:26:16 CDT 2021</td>
+<td>Started on:</td><td>Tue Aug 31 14:39:10 CDT 2021</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3478 ms)</td>
+<tr><td>Total time:</td><td>4 seconds (4511 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.Mercury.Test.FlightDetailTestPage.classPreference()'><b>classPreference</b><br>Test class: com.Mercury.Test.FlightDetailTestPage</td>
-<td><div><pre>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;input&quot;
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RASHMI&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
-	at com.Mercury.Pages.FlightDetailPage.serviceClassSelection(FlightDetailPage.java:63)
-	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:57)
+<td><div><pre>java.lang.AssertionError: expected [Business class] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:60)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,14 +109,15 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace693275170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace693275170'><pre>org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;input&quot;
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RASHMI&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
-	at com.Mercury.Pages.FlightDetailPage.serviceClassSelection(FlightDetailPage.java:63)
-	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:57)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1028259121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1028259121'><pre>java.lang.AssertionError: expected [Business class] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:60)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -143,7 +145,7 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.Mercury.Test.FlightDetailTestPage@7ef27d7f</td></tr>
+<td>com.Mercury.Test.FlightDetailTestPage@6337c201</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -156,22 +158,22 @@ Driver info: driver.version: unknown
 <td title='com.Mercury.Test.FlightDetailTestPage.verifyFlightButton()'><b>verifyFlightButton</b><br>Test class: com.Mercury.Test.FlightDetailTestPage</td>
 <td></td>
 <td>0</td>
-<td>com.Mercury.Test.FlightDetailTestPage@7ef27d7f</td></tr>
+<td>com.Mercury.Test.FlightDetailTestPage@6337c201</td></tr>
 <tr>
 <td title='com.Mercury.Test.FlightDetailTestPage.verifyFlightDetail()'><b>verifyFlightDetail</b><br>Test class: com.Mercury.Test.FlightDetailTestPage</td>
 <td></td>
 <td>0</td>
-<td>com.Mercury.Test.FlightDetailTestPage@7ef27d7f</td></tr>
+<td>com.Mercury.Test.FlightDetailTestPage@6337c201</td></tr>
 <tr>
 <td title='com.Mercury.Test.FlightDetailTestPage.verifyPassangerCount()'><b>verifyPassangerCount</b><br>Test class: com.Mercury.Test.FlightDetailTestPage</td>
 <td></td>
 <td>0</td>
-<td>com.Mercury.Test.FlightDetailTestPage@7ef27d7f</td></tr>
+<td>com.Mercury.Test.FlightDetailTestPage@6337c201</td></tr>
 <tr>
 <td title='com.Mercury.Test.FlightDetailTestPage.verifydepatureCity()'><b>verifydepatureCity</b><br>Test class: com.Mercury.Test.FlightDetailTestPage</td>
 <td></td>
 <td>0</td>
-<td>com.Mercury.Test.FlightDetailTestPage@7ef27d7f</td></tr>
+<td>com.Mercury.Test.FlightDetailTestPage@6337c201</td></tr>
 </table><p>
 </body>
 </html>

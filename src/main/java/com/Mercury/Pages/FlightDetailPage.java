@@ -25,11 +25,11 @@ public WebDriver driver;
 	private WebElement arrivalCity;
 	@FindBy (name="passCount")
 	private WebElement noOfPassangers;
-	@FindBy (xpath="//input[@value='Business']")
+	@FindBy (xpath="(//input[@ name='servClass'])[2]")
 	private WebElement serviceClass;
 	@FindBy (xpath="//input[@value='oneway']")
 	private WebElement Type;
-	private WebElement WebElement;
+	
 
 
 public void clickOnFlight() {
@@ -60,9 +60,6 @@ public String passangerCount() {
 	return noOfPassanger.getText();
 }
 public String serviceClassSelection() {
-	Select select1 = new Select(serviceClass);
-	select1.selectByVisibleText("Business class");
-	WebElement serviceClass= select1.getFirstSelectedOption();
 	return serviceClass.getText();
 }
 public void Trip() {

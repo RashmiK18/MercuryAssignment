@@ -57,11 +57,11 @@ public class FlightDetailTestPage extends BaseTest {
 	@Test(priority =5)
 	public void classPreference() {
 		String choice=flightDetail.serviceClassSelection();
-		Assert.assertTrue(true);
+		Assert.assertEquals(choice,"Business class");
 	}
 	@AfterTest
 	public void tearDown() {
-		driver.close();
+		driver.quit();
 	}
 	
 }

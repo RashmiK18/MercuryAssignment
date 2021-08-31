@@ -9,17 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">3,478</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">4</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,511</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Mercury.Test.FlightDetailTestPage</td><td><a href="#m0">classPreference</a></td><td rowspan="1">1630131979448</td><td rowspan="1">27</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.Mercury.Test.FlightDetailTestPage</td><td><a href="#m1">verifyFlightButton</a></td><td rowspan="1">1630131978607</td><td rowspan="1">272</td></tr><tr class="passedeven"><td><a href="#m2">verifyFlightDetail</a></td><td rowspan="1">1630131979100</td><td rowspan="1">190</td></tr><tr class="passedeven"><td><a href="#m3">verifyPassangerCount</a></td><td rowspan="1">1630131979292</td><td rowspan="1">155</td></tr><tr class="passedeven"><td><a href="#m4">verifydepatureCity</a></td><td rowspan="1">1630131978887</td><td rowspan="1">212</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.Mercury.Test.FlightDetailTestPage</td><td><a href="#m0">classPreference</a></td><td rowspan="1">1630438754611</td><td rowspan="1">29</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.Mercury.Test.FlightDetailTestPage</td><td><a href="#m1">verifyFlightButton</a></td><td rowspan="1">1630438753814</td><td rowspan="1">286</td></tr><tr class="passedeven"><td><a href="#m2">verifyFlightDetail</a></td><td rowspan="1">1630438754289</td><td rowspan="1">168</td></tr><tr class="passedeven"><td><a href="#m3">verifyPassangerCount</a></td><td rowspan="1">1630438754458</td><td rowspan="1">151</td></tr><tr class="passedeven"><td><a href="#m4">verifydepatureCity</a></td><td rowspan="1">1630438754108</td><td rowspan="1">180</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.Mercury.Test.FlightDetailTestPage#classPreference</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;input&quot;
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RASHMI&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
-	at com.Mercury.Pages.FlightDetailPage.serviceClassSelection(FlightDetailPage.java:63)
-	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:57)
+<h2>Default test</h2><h3 id="m0">com.Mercury.Test.FlightDetailTestPage#classPreference</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Business class] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:60)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

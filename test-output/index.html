@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\erp_w\AppData\Local\Temp\testng-eclipse-153934925\testng-customsuite.xml</span>
+                    <span>C:\Users\erp_w\AppData\Local\Temp\testng-eclipse-1768528907\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -157,13 +157,14 @@
                   <a name="classPreference">
                   </a> <!-- classPreference -->
                   <span class="method-name">classPreference</span>
-                  <div class="stack-trace">org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been &quot;select&quot; but was &quot;input&quot;
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RASHMI&apos;, ip: &apos;192.168.1.210&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.&lt;init&gt;(Select.java:48)
-	at com.Mercury.Pages.FlightDetailPage.serviceClassSelection(FlightDetailPage.java:63)
-	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:57)
+                  <div class="stack-trace">java.lang.AssertionError: expected [Business class] but found []
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.Mercury.Test.FlightDetailTestPage.classPreference(FlightDetailTestPage.java:60)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -234,7 +235,7 @@ Driver info: driver.version: unknown
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\erp_w\AppData\Local\Temp\testng-eclipse-153934925\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\erp_w\AppData\Local\Temp\testng-eclipse-1768528907\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -287,28 +288,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyFlightButton')
 data.setCell(0, 2, 'com.Mercury.Test.FlightDetailTestPage')
-data.setCell(0, 3, 272);
+data.setCell(0, 3, 286);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifydepatureCity')
 data.setCell(1, 2, 'com.Mercury.Test.FlightDetailTestPage')
-data.setCell(1, 3, 212);
+data.setCell(1, 3, 180);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyFlightDetail')
 data.setCell(2, 2, 'com.Mercury.Test.FlightDetailTestPage')
-data.setCell(2, 3, 190);
+data.setCell(2, 3, 168);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'verifyPassangerCount')
 data.setCell(3, 2, 'com.Mercury.Test.FlightDetailTestPage')
-data.setCell(3, 3, 155);
+data.setCell(3, 3, 151);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'classPreference')
 data.setCell(4, 2, 'com.Mercury.Test.FlightDetailTestPage')
-data.setCell(4, 3, 27);
+data.setCell(4, 3, 29);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 856 ms</span>
+              <span class="suite-total-time">Total running time: 814 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -341,26 +342,30 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">verifyFlightButton</span>
-                <span class="method-start">2605 ms</span>
+                <span class="method-start">3031 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifydepatureCity</span>
-                <span class="method-start">2885 ms</span>
+                <span class="method-start">3325 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyFlightDetail</span>
-                <span class="method-start">3098 ms</span>
+                <span class="method-start">3506 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">verifyPassangerCount</span>
-                <span class="method-start">3290 ms</span>
+                <span class="method-start">3675 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">classPreference</span>
-                <span class="method-start">3446 ms</span>
+                <span class="method-start">3828 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3860 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
